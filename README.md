@@ -2,21 +2,24 @@
 
 Code Execution steps :-
 
-1. Import project as Maven project.
-2. Add TestNG library in build path 
-3. Add jdbc jar to build path
-4. run as >> Maven install
-5. If unsuccessful update project( Maven >> update projects)
-6. In practice class where global variables are declared Set database file IMDB.sqlite address  
-7. In practice class where global variables are declared Set CSV file address  
-8. If you get error "check your compiler - you are using jre rather than JdK" 
-   go inside ( build path >> configure build path >> Add Library >> JRE System Library >> alternate jre >> installed jre >> Add >>            standard vm >> Next >> jre home directory ) and assign Jdk path
-9. Please note this code is compatible with Firefox Quantum version.
+1.  Import project as Maven project.
+2.  Add TestNG library in build path 
+3.  Add jdbc jar to build path
+4.  run as >> Maven install
+5.  If unsuccessful update project( Maven >> update projects)
+6.  In practice class where global variables are declared Set database file IMDB.sqlite address  
+7.  In practice class where global variables are declared Set CSV file address  
+8.  If you get error "check your compiler - you are using jre rather than JdK" 
+    go inside ( build path >> configure build path >> Add Library >> JRE System Library >> alternate jre >> installed jre >> Add >>           standard vm >> Next >> jre home directory ) and assign Jdk path
+9.  Please note this code is compatible with Firefox Quantum version.
 10. execute TopIMDB250 class to start test.
 11. Report folder in repository contains Extent report result 
 12. copy the path of ExtReport.html and paste in browser to view the test result
 
 # Contents : 
+
+![](https://content.screencast.com/users/vaibhav_langore/folders/Jing/media/dd483d3e-ec5a-4966-bbc5-829e53ad72b6/2018-02-19_2143.png)
+
 
 ![](https://content.screencast.com/users/vaibhav_langore/folders/Jing/media/5d528ce5-b811-46e4-bc8e-8ddf0149ed45/2018-02-19_0647.png)
 
