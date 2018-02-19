@@ -108,9 +108,20 @@ public class Top250Test {
 		                             "VALUES ("+(i)+",'"+objTop250.movieName+"','"+objTop250.movieYear+"','"+objTop250.movieRating+"')"; 
 	    		
 				DBConnectOBJ.exeQuery(sqliteOBJ.strQuery);
-
+			int year=Integer.parseInt(objTop250.movieYear);
+			if(1500 < year & year < 2050){
+					
+			}else {
+				System.out.println("Wrong Year");
+			}
+			float rate=Float.valueOf(objTop250.movieRating);
+			if (rate<10 & rate>0) {
+				
+			}else {
+				System.out.println("Wrong Rating");
+			}
 					 
-				}
+			}
 
 			test.log(LogStatus.INFO, "List updated");
 			test.log(LogStatus.PASS, "Test case FetchData from website successful");
